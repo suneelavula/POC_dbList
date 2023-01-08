@@ -1,6 +1,6 @@
 include databaseOPS/databaseops.mk database_if/databaseif.mk
 CC = gcc
-CFLAGS = -Wall
+CFLAGS = 
 LDFLAGS =
 SOURCES += ./app/riverApp.c 
 INCLUDE += 
