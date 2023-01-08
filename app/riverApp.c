@@ -8,8 +8,8 @@ int main(void)
       int riverNameFd;
       char riverCities[1024];
       int b;
-      char choice = '1';
-      while(choice == '1')
+      char c='1';
+      while(c == '1')
      {
          printf("Enter River name: ");
          fscanf(stdin, "%s", riverName);  //use %s not 143[^t]
@@ -29,9 +29,8 @@ int main(void)
 
          }
          database_if_close(riverNameFd);
-         fflush(stdin);
-         printf("if you want to enter another country name press 1 otherwise press 0: ");
-         scanf("%c",&choice);
+         printf("if you want to enter another country name press 1 otherwise press any key: ");
+         scanf(" %c",&c);
      }
      return 0;
   }

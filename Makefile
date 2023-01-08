@@ -1,8 +1,14 @@
+include databaseOPS/databaseops.mk database_if/databaseif.mk
 CC = gcc
-default: build
+CFLAGS = -Wall
+LDFLAGS =
+SOURCES += ./app/riverApp.c 
+INCLUDE += 
 TARGET = riverlist
+
+default: build
 build: 
-	$(CC) -I./databaseOPS/databaseOPSText -I./database_if -o $(TARGET) ./databaseOPS/databaseOPSText/database.c ./app/riverApp.c ./database_if/database_if.c
+	$(CC) $(INCLUDE) -o $(TARGET) $(SOURCES)
 clean: 
-	rm riverlist
+	rm  riverlist
 

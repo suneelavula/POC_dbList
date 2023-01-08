@@ -10,7 +10,7 @@ int database_if_open( const char *filename)
 {
     int data;
     char i_filename[144];
-    sprintf(i_filename,"/Users/venkat/code/POC_dbList/database/rivers/textDB/%s",filename);
+    sprintf(i_filename,"/home/emertxe/suneel/POC_dbList/database/rivers/textDB/%s",filename);
     data=database_open(i_filename);
     if(data < 0)
     {

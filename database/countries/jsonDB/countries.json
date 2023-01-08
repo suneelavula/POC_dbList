@@ -1,0 +1,8 @@
+{
+  "bangladesh":["Barisal Division","Chittagong Division","Dhaka Division","Khulna Division","Mymensingh Division","Rajshahi Division","Rangpur Division","Sylhet Division"],
+  "germany":["Baden-Württemberg","Bavaria","Berlin","Brandenburg","Bremen","Hamburg","Hesse","Mecklenburg-Vorpommern","Lower Saxony","North Rheine-Westphalia","Rhineland-Palatinate","Saarland","Saxony","Saxony-Anhalt","Schleswig-Holstein","Thuringia"],
+  "india":["Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chhatisgarh","Goa","Gujarath","Haryana","Himachal Pradesh","Jharkhand","Karnataka","Kerala","Madhya Pradesh","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Panjab","Rajasthan","Sikkim ","Tamilnadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal","Andaman and Nicobar Islands","Chandigarh","Dadra and Nagar Haveli and Daman and Diu" ,"Delhi","Jammu and Kashmir","Ladakh","Lakshadweep","Puducherry"],
+  "nepal":["Province No. 1","Madhesh Province","Bagmati Province","Gandaki Province","Lumbini Province","Karnali Province","Sudurpashchim Province"],
+  "pakistan":["Azad Jammu and Kashmir","Balochistan","Gilgit-Baltistan","Islamabad Capital Territory","Khyber Pakhtunkhwa","Punjab","Sindh"],
+  "srilanka":["Central Province","Eastern Province","North Central Province","Northern Province","North Western Province","Sabaragamuwa`","Southern Province","Uva","Western Province"]
+}
